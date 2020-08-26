@@ -301,6 +301,7 @@ ul {
     letter-spacing: 0px;
     color: #3DB8BF;
     opacity: 1;
+    width: fit-content;
 }
 
 #flat{
@@ -381,4 +382,15 @@ ul {
     position: relative;
     top: -11px;
     left: 51px;
+}
+
+.margin-off{
+  margin: 0;
+}
+
+.container-fixed{
+  max-width: fit-content !important;
+  margin-left: 5rem !important;
+  margin-right: 5rem !important;
+
 }
