@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -182,7 +187,7 @@ ul {
 
   #text-n-fila{
     position: relative;
-    width: 87%;
+    width: 80%;
     top: -37px;
     left: 90px;
   }
@@ -234,29 +239,33 @@ ul {
 }
 
 #contactos-text{
-    text-align: left;
-    font: normal normal normal 15px/23px Poppins;
-    letter-spacing: 0px;
-    color: #8594A0;
-    opacity: 1;
-    margin-top: -2%;
+  text-align: left;
+  font: normal normal normal 15px/23px Poppins;
+  letter-spacing: 0px;
+  color: #8594A0;
+  opacity: 1;
+  margin-top: -2%;
+  position: relative;
+  top: -16px;
+  left: 2px;
 }
 
 #box_1{
-    position: relative;
-    left: 88px;
-    top: 33px;
+  position: relative;
+  left: 88px;
+  top: 41px;
+  width: fit-content;
 }
 
 #box_2{
-    width: 154px;
-    height: 50px;
-    background: #1BD741 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: relative;
-    top: -35px;
-    left: 390px;
-    border-radius: 3px;
+  width: 154px;
+  height: 50px;
+  background: #1BD741 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+  top: -35px;
+  left: 26rem;
+  border-radius: 3px;
 }
 
 #whatsapp-title{
@@ -327,17 +336,22 @@ ul {
     color: #3DB8BF;
     opacity: 1;
     position: relative;
-    top: -22px;
-    left: 107px;
+    top: 14px;
+    left: -189px;
 }
 
-#box_3{
-    position: relative;
-    top: 44px;
+#box_3 {
+  position: relative;
+  top: 55px;
+  width: fit-content;
 }
 
-#box_4{
-    float:right;
+#box_4 {
+  position: relative;
+  top: 56px;
+  width: fit-content;
+  float: right;
+  left: -3rem;
 }
 
 #email-icon{
@@ -394,3 +408,13 @@ ul {
   margin-right: 5rem !important;
 
 }
+
+
+
+/*MEDIA QUERYS*/
+@media screen and (max-device-width: 500px) {
+  body{
+    width: fit-content;
+  }
+}
+
