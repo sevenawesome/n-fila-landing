@@ -663,3 +663,54 @@ ul {
 }
 }
 
+/*ANIMATIONS*/
+
+.menu,#text-n-fila,#text-auth-n-fila {
+  animation: fade-in-move-down 2.5s;
+}
+
+@keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.brand,#point-image,#second-title,#second-title-text,#box_1,#box_2,#box_3,#box_4 {
+  animation: fade-in-move-right 2.5s;
+}
+
+@keyframes fade-in-move-right {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+ }
+ 100% {
+    opacity: 1;
+    transform: translateX(0);
+ }
+}
+
+
+#text-welcome,#text-description,#div-button-special,#cell-n-fila,#n-fila-logo,#app-store-n-fila,#google-play-n-fila,
+#chat-n-fila,#Chat-me-logo,#app-store-chat_me,#google-play-chat-me{
+  animation: fade-in-move-left 2.5s;
+}
+
+@keyframes fade-in-move-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+ }
+ 100% {
+    opacity: 1;
+    transform: translateX(0);
+ }
+}
+
+
