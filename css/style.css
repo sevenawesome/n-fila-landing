@@ -386,6 +386,7 @@ ul {
     top: -11px;
     left: -71px;
     color: #3eb4bb;
+
 }
 
 #user-f{
@@ -653,6 +654,7 @@ ul {
   position: relative;
   top: -1.5rem;
   left: 6.8rem;
+  width: 200px;
 }
 
 #user {
@@ -660,6 +662,7 @@ ul {
   top: -2.6rem;
   left: 16.6rem;
   color: #3eb4bb;
+  width: 100px;
 }
 }
 
