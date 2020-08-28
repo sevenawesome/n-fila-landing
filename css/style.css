@@ -717,3 +717,61 @@ ul {
 }
 
 
+@media screen and (max-device-width: 320px) {
+  #user {
+    left: 13.4rem;
+}
+
+#user-i {
+  position: relative;
+  top: -43px;
+  left: 332px;
+}
+
+#user-f {
+  position: relative;
+  top: -43px;
+  left: 332px;
+}
+
+
+
+}
+
+
+@media screen and (max-device-width: 280px) {
+  #user {
+    left: 13.5rem;
+    top: -43px;
+}
+
+#user-i {
+  position: relative;
+  top: -43px;
+  left: 332px;
+}
+
+#user-f {
+  position: relative;
+  top: -43px;
+  left: 333px;
+}
+
+#page {
+  position: relative;
+  top: -40px;
+  left: 71px;
+  color: #3eb4bb;
+}
+.main,.second{
+  width: 115%;
+}
+
+#page-icon {
+  position: relative;
+  top: -40px;
+  left: 215px;
+}
+
+
+}
